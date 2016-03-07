@@ -1,5 +1,5 @@
 {
-    "name": "emka/featuretogglebundle",
+    "name": "vladab/featuretogglebundle",
     "description": "Feature toggling",
     "keywords": ["feature toggling"],
     "type": "symfony-bundle",
