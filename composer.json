@@ -15,7 +15,7 @@
         }
     ],
     "require": {
-        "twig/extensions": "~1.*"
+        "twig/extensions": "^1.2"
     },
     "autoload": {
         "psr-0": { "Emka\\FeatureToggleBundle": "" }
