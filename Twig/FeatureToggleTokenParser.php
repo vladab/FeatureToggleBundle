@@ -1,8 +1,8 @@
 <?php
-namespace Emka\FeatureToggleBundle\Twig;
+namespace Vladab\FeatureToggleBundle\Twig;
 
-use Emka\FeatureToggleBundle\Feature\FeatureManager;
-use Emka\FeatureToggleBundle\Exception\FeatureToggleNotFoundException;
+use Vladab\FeatureToggleBundle\Feature\FeatureManager;
+use Vladab\FeatureToggleBundle\Exception\FeatureToggleNotFoundException;
 
 /**
  * Parses a feature tag
@@ -24,7 +24,7 @@ class FeatureToggleTokenParser extends \Twig_TokenParser
     protected $manager;
 
     /**
-     * @param \Emka\FeatureToggleBundle\Feature\FeatureManager $manager
+     * @param \Vladab\FeatureToggleBundle\Feature\FeatureManager $manager
      */
     public function __construct(FeatureManager $manager)
     {

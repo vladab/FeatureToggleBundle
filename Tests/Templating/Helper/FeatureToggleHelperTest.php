@@ -1,7 +1,7 @@
 <?php
-namespace Emka\FeatureToggleBundle\Test\Templating\Helper;
+namespace Vladab\FeatureToggleBundle\Test\Templating\Helper;
 
-use Emka\FeatureToggleBundle\Templating\Helper\FeatureToggleHelper;
+use Vladab\FeatureToggleBundle\Templating\Helper\FeatureToggleHelper;
 
 class FeatureToggleHelperTest extends \PHPUnit_Framework_TestCase
 {

@@ -1,5 +1,5 @@
 <?php
-namespace Emka\FeatureToggleBundle\Twig;
+namespace Vladab\FeatureToggleBundle\Twig;
 
 /**
  * This is the main extension file enabling feature toggling
@@ -9,8 +9,8 @@ namespace Emka\FeatureToggleBundle\Twig;
  * @since  2011-09-17
  */
 
-use Emka\FeatureToggleBundle\Twig\FeatureToggleTokenParser;
-use Emka\FeatureToggleBundle\Feature\FeatureManager;
+use Vladab\FeatureToggleBundle\Twig\FeatureToggleTokenParser;
+use Vladab\FeatureToggleBundle\Feature\FeatureManager;
 
 class FeatureToggleExtension extends \Twig_Extension
 {

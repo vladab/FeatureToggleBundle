@@ -1,5 +1,5 @@
 <?php
-namespace Emka\FeatureToggleBundle\Exception;
+namespace Vladab\FeatureToggleBundle\Exception;
 
 /**
  * FeatureToggleNotFoundException class.

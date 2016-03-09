@@ -1,5 +1,5 @@
 <?php
-namespace Emka\FeatureToggleBundle\Tests\DependencyInjection;
+namespace Vladab\FeatureToggleBundle\Tests\DependencyInjection;
 
 use Symfony\Bundle\AsseticBundle\DependencyInjection\AsseticExtension;
 use Symfony\Bundle\AsseticBundle\DependencyInjection\Compiler\CheckYuiFilterPass;
@@ -10,8 +10,8 @@ use Symfony\Component\DependencyInjection\Definition;
 use Symfony\Component\DependencyInjection\Dumper\PhpDumper;
 use Symfony\Component\DependencyInjection\Scope;
 use Symfony\Component\HttpFoundation\Request;
-use Emka\FeatureToggleBundle\Feature\Feature;
-use Emka\FeatureToggleBundle\Feature\FeatureManager;
+use Vladab\FeatureToggleBundle\Feature\Feature;
+use Vladab\FeatureToggleBundle\Feature\FeatureManager;
 
 /**
  * Semantic feature toggling configuration.
@@ -60,7 +60,7 @@ class FeatureToggleExtensionTest extends \PHPUnit_Framework_TestCase
 
     public function testDefaultConfig()
     {
-        $extension = new \Emka\FeatureToggleBundle\DependencyInjection\FeatureToggleExtension();
+        $extension = new \Vladab\FeatureToggleBundle\DependencyInjection\FeatureToggleExtension();
         $extension->load(array(array()), $this->container);
 
         $this->assertFalse($this->container->has('feature_toggle.features'));
@@ -68,7 +68,7 @@ class FeatureToggleExtensionTest extends \PHPUnit_Framework_TestCase
 
     public function testConfig()
     {
-        $extension = new \Emka\FeatureToggleBundle\DependencyInjection\FeatureToggleExtension();
+        $extension = new \Vladab\FeatureToggleBundle\DependencyInjection\FeatureToggleExtension();
         $extension->load(array(array(
             'features' => array(
                 'test_enabled' => array(

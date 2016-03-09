@@ -1,5 +1,5 @@
 <?php
-namespace Emka\FeatureToggleBundle;
+namespace Vladab\FeatureToggleBundle;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;

@@ -1,5 +1,5 @@
 <?php
-namespace Emka\FeatureToggleBundle\DependencyInjection;
+namespace Vladab\FeatureToggleBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

@@ -18,7 +18,7 @@
         "twig/extensions": "1.3.0"
     },
     "autoload": {
-        "psr-0": { "Emka\\FeatureToggleBundle": "" }
+        "psr-0": { "Vladab\\FeatureToggleBundle": "" }
     },
-    "target-dir": "Emka/FeatureToggleBundle"
+    "target-dir": "Vladab/FeatureToggleBundle"
 }

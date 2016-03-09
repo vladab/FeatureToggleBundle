@@ -1,5 +1,5 @@
 <?php
-namespace Emka\FeatureToggleBundle\Twig;
+namespace Vladab\FeatureToggleBundle\Twig;
 
 /**
  * Parses a feature tag

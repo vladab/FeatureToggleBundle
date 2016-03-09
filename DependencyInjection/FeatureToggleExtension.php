@@ -1,5 +1,5 @@
 <?php
-namespace Emka\FeatureToggleBundle\DependencyInjection;
+namespace Vladab\FeatureToggleBundle\DependencyInjection;
 
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\Config\FileLocator;
@@ -8,8 +8,8 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Loader\XmlFileLoader;
 use Symfony\Component\DependencyInjection\Definition;
 use Symfony\Component\DependencyInjection\Reference;
-use Emka\FeatureToggleBundle\Feature\Feature;
-use Emka\FeatureToggleBundle\Feature\FeatureManager;
+use Vladab\FeatureToggleBundle\Feature\Feature;
+use Vladab\FeatureToggleBundle\Feature\FeatureManager;
 
 /**
  * Semantic feature toggling configuration.
@@ -49,7 +49,7 @@ class FeatureToggleExtension extends Extension
             $manager->addMethodCall('add', array(new Reference($id)));
         }
 
-        $definition = new Definition('Emka\FeatureToggleBundle\Twig\FeatureToggleExtension', array($manager));
+        $definition = new Definition('Vladab\FeatureToggleBundle\Twig\FeatureToggleExtension', array($manager));
         $definition->addTag('twig.extension');
         $container->setDefinition('feature_toggle.twig.extension', $definition);
     }

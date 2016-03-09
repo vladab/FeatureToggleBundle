@@ -1,5 +1,5 @@
 <?php
-namespace Emka\FeatureToggleBundle\Feature;
+namespace Vladab\FeatureToggleBundle\Feature;
 
 /**
  * FeatureManager class.

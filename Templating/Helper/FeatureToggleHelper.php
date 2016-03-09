@@ -1,5 +1,5 @@
 <?php
-namespace Emka\FeatureToggleBundle\Templating\Helper;
+namespace Vladab\FeatureToggleBundle\Templating\Helper;
 
 use Symfony\Component\Templating\Helper\Helper;
 
